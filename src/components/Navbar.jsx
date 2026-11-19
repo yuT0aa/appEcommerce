@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import {useSelector} from 'react-reduc'
+import {useSelector} from 'react-redux';
 
 function Navbar(){
     const panierItems=useSelector((state)=>state.panier.items);
